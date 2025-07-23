@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KEA Premium Support Portal</title>
+  <link rel="icon" href="1.jpg" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f9f5fb;
+      color: #5c1a6a;
+      font-size: 14px;
+    }
+
+    header {
+      background-color: #a944b3;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      margin-left: 10px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(169, 68, 179, 0.15);
+    }
+
+    h1 {
+      text-align: center;
+      color: #a944b3;
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .benefits {
+      margin: 1rem 0;
+      padding-left: 1rem;
+    }
+
+    .benefits li {
+      margin-bottom: 0.5rem;
+    }
+
+    .cta {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .cta p {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .razorpay-payment-button {
+      background-color: #a944b3 !important;
+      color: white !important;
+      border-radius: 6px !important;
+      font-size: 14px !important;
+      padding: 10px 20px !important;
+      transition: background 0.3s ease;
+    }
+
+    .razorpay-payment-button:hover {
+      background-color: #9123a0 !important;
+    }
+
+    footer {
+      text-align: center;
+      margin: 3rem auto 1rem;
+      font-size: 12px;
+      color: #7c4d8f;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .container {
+        margin: 1rem;
+        padding: 1.2rem;
+      }
+
+      header img {
+        height: 45px;
+      }
+
+      header h2 {
+        margin-top: 0.5rem;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      .razorpay-payment-button {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="1.jpg" alt="KEA Logo">
+    <h2>KEA Premium Support</h2>
+  </header>
+
+  <div class="container">
+    <h1>Join KEA Premium Group Support</h1>
+    <p>
+      Get direct guidance from KEA officers with a <strong>one-time payment of Rs. 399</strong>.
+      Once joined, you will be added to our official KEA Premium Group where you can ask <strong>unlimited doubts</strong>—big or small.
+    </p>
+    <ul class="benefits">
+      <li>✅ One-time payment covers complete support till your last round of admission.</li>
+      <li>✅ Direct access to KEA officers.</li>
+      <li>✅ Personalized help with option entry, seat allotment, documents, college selection, and more.</li>
+      <li>✅ Already <strong>2300+ students</strong> enrolled and getting daily benefits.</li>
+      <li>✅ No restriction on questions – ask anything, anytime.</li>
+      <li>✅ Fast, reliable, and official support!</li>
+    </ul>
+
+    <div class="cta">
+      <p><strong>Secure your KEA Premium Access Now</strong></p>
+      <form>
+        <script 
+          src="https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id="pl_QwWZpIskjUMpEh"
+          async>
+        </script>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Karnataka Examinations Authority. All rights reserved.
+  </footer>
+</body>
+</html>
